@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topHeaderMenu {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  width: 100%;
+  background-color: bisque;
+  margin: auto;
+}
+.topHeaderMenu .cart-button {
+  display: inline-block;
+  background-color: rgb(25, 106, 255);
+  color: aliceblue;
+  border: 0;
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+  margin: auto 20px;
+}
+
+.goods-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.goods-list .goods-item {
+  flex-direction: column;
+  background-color: rgb(243, 236, 211);
+  padding: 5px;
+  display: flex;
+  max-width: 200px;
+}
+.goods-list .goods-item .goodImg {
+  width: auto;
+  height: auto;
+}
+.goods-list .goods-item .goodTitle {
+  margin: 5px auto 5px 3px;
+  justify-content: start;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.goods-list .goods-item .goodBtnAdd {
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 14px;
+  padding: 5px 10px 5px;
+  margin: 5px 3px 5px auto;
+  justify-content: flex-end;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.goods-list .goods-item .goodBtnAdd a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
