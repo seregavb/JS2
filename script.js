@@ -8,7 +8,7 @@ const goods = [
 ];
 
 const renderGoodsItem = (title = 'Pantalon', price = 1500) => {
-    return `<div class="goods-item"><h3>${title}</h3><p>${price}</p></div>`;
+    return `<div class="goods-item"><img class="goodImg" src="images/iPhone14.jpg" alt=""><div class="goodTitle">${title}</div><div class="goodPrice">${price}</div><button class="goodBtnAdd"><a href="#">Добавить</a></button></div>`;
 };
 
 const renderGoodsList = (list) => {
@@ -17,3 +17,4 @@ const renderGoodsList = (list) => {
 };
 
 renderGoodsList(goods);
+

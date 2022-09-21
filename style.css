@@ -43,6 +43,15 @@
   margin: 5px auto 5px 3px;
   justify-content: start;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.goods-list .goods-item .goodPrice {
+  margin: 5px auto 5px 3px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
 }
 .goods-list .goods-item .goodBtnAdd {
   border: 1px solid rgb(202, 202, 202);
